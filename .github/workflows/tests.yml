@@ -24,6 +24,7 @@ jobs:
         flake8 .
 
     - name: Run tests with pytest
+      env:
+        PYTHONPATH: .
       run: |
         pytest tests
-
