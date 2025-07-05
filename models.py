@@ -19,4 +19,3 @@ class Library:
 
     def remove_book_by_id(self, book_id: int):
         self.books = [book for book in self.books if book.book_id != book_id]
-
