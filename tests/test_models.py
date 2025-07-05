@@ -49,3 +49,4 @@ def test_multiple_books(sample_library):
     for b in books:
         sample_library.add_book(b)
     assert len(sample_library.books) == 2
+
